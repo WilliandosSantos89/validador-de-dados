@@ -1,0 +1,118 @@
+{
+  "data": "2026-03-17",
+  "total": 12,
+  "validos": 8,
+  "invalidos": 4,
+  "total_erros": 4,
+  "taxa_qualidade": "66.7%",
+  "registros": [
+    {
+      "linha": 2,
+      "id": 1,
+      "material": "Apostila de Matemática - 6º ano",
+      "erros": [
+        {
+          "campo": "ID",
+          "valor": "1",
+          "motivo": "ID fora do padrão MAT-000"
+        }
+      ],
+      "valido": false
+    },
+    {
+      "linha": 3,
+      "id": "MAT-002",
+      "material": "Vídeo Aula de Português - 7º ano",
+      "erros": [],
+      "valido": true
+    },
+    {
+      "linha": 4,
+      "id": "MAT-003",
+      "material": "Exercícios de Ciências - 8º ano",
+      "erros": [
+        {
+          "campo": "Plataforma",
+          "valor": "Youtube",
+          "motivo": "Plataforma inválida — use: LMS Moodle, Portal do Aluno, App Arco"
+        }
+      ],
+      "valido": false
+    },
+    {
+      "linha": 5,
+      "id": "MAT-004",
+      "material": "Prova de História - 9º ano",
+      "erros": [],
+      "valido": true
+    },
+    {
+      "linha": 6,
+      "id": "MAT-005",
+      "material": "Slides de Geografia - 6º ano",
+      "erros": [
+        {
+          "campo": "Responsável",
+          "valor": "",
+          "motivo": "Campo obrigatório vazio"
+        }
+      ],
+      "valido": false
+    },
+    {
+      "linha": 7,
+      "id": "MAT-006",
+      "material": "Caderno de Redação - 7º ano",
+      "erros": [
+        {
+          "campo": "Status",
+          "valor": "Cancelado",
+          "motivo": "Status inválido — use: Publicado, Pendente, Atrasado, Erro"
+        }
+      ],
+      "valido": false
+    },
+    {
+      "linha": 8,
+      "id": "MAT-007",
+      "material": "Simulado de Química - 3º EM",
+      "erros": [],
+      "valido": true
+    },
+    {
+      "linha": 9,
+      "id": "MAT-008",
+      "material": "Apostila de Física - 2º EM",
+      "erros": [],
+      "valido": true
+    },
+    {
+      "linha": 10,
+      "id": "MAT-009",
+      "material": "Vídeo Aula de Biologia - 1º EM",
+      "erros": [],
+      "valido": true
+    },
+    {
+      "linha": 11,
+      "id": "MAT-010",
+      "material": "Exercícios de Inglês - 8º ano",
+      "erros": [],
+      "valido": true
+    },
+    {
+      "linha": 12,
+      "id": "MAT-011",
+      "material": "Prova de Arte - 6º ano",
+      "erros": [],
+      "valido": true
+    },
+    {
+      "linha": 13,
+      "id": "MAT-012",
+      "material": "Slides de Filosofia - 3º EM",
+      "erros": [],
+      "valido": true
+    }
+  ]
+}
